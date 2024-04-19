@@ -1,6 +1,6 @@
 FROM amazonlinux:2
 
-ARG PYTHON_VERSION=3.10.13
+ARG PYTHON_VERSION=3.11.6
 
 RUN yum update -y -q \
   && yum install -y -q openssl11 openssl11-devel tar make gcc zlib-devel bzip2 bzip2-devel readline-devel sqlite sqlite-devel tk-devel libffi-devel xz-devel git zip \
